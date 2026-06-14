@@ -1,0 +1,19 @@
+# Claude Code local config / memory
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Pipeline outputs
+episodes/
+series/references/*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
